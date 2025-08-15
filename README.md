@@ -2,6 +2,9 @@
 - Install VITE
 - Configure Project set up
 - Connect to Remote Repository
+- Header
+- Sign-In form
+- Sing Up form
 # Features
 - Login/Sign Up
     - Sign In /Sign up Form
@@ -9,7 +12,7 @@
 - Browse (after authentication)
     - Header
     - Main Movie
-        - Tailer in Background
+        - Trailer in Background
         - Title & Description
         - MovieSuggestions
             - MovieLists * N 

@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_small.jpg");
+    height: 110vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+.gradient{
+    /* background-image: radial-gradient(rgba(0, 0, 0, 0) 1% , rgba(0, 0, 0, 0.154) 1% , rgba(0, 0, 0, 0.935) 90%); */
+    background: linear-gradient(rgba(0, 0, 0, 0.785) 60%, rgba(0, 0, 0, 0) 100%);
+ }
+.nav{
+    max-width: 79vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+.nav-img{
+    width: 175px;
+}
+.nav-img img{
+    width: 100%;
+}
+.signIn-container{
+    max-width: 79vw;
+    margin: 0px auto;
+}
+.sign-up-form{
+    width: 320px;
+    margin: 0 auto;
+    background-color: #020201bc;
+    color: #ffffff;
+    padding: 0 60px;
+}
+.sign-up-form h2{
+   padding: 40px 0px 10px 0px;
+}
+.sign-up-form  input{
+    display: block;
+    margin: 15px 0px;
+    padding: 20px 0px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 116, 116);
+    background-color: #020201;
+    color:  rgb(118, 116, 116);
+    font-weight: 600;
+}
+.sign-up-form > button{
+    background-color: rgb(229, 9, 20);
+    padding: 10px 0px;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.sign-up-text{
+    padding-bottom: 30px;
+}
+.sign-up-text p {
+    cursor: pointer;
+    display: inline;
+}
+.sign-up-text p:hover{
+    text-decoration: underline;
+}
+
+
+
+
