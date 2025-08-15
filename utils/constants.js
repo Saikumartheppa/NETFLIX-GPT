@@ -1,0 +1,1 @@
+export const PAGE_ICON = "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico";
