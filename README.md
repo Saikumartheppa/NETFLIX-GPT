@@ -2,9 +2,11 @@
 - Install VITE
 - Configure Project set up
 - Connect to Remote Repository
+- Routing
 - Header
 - Sign-In form
 - Sing Up form
+- Form Validation
 # Features
 - Login/Sign Up
     - Sign In /Sign up Form

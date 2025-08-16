@@ -34,7 +34,7 @@
 .sign-up-form{
     width: 320px;
     margin: 0 auto;
-    background-color: #020201bc;
+    background-color: #020201cf;
     color: #ffffff;
     padding: 0 60px;
 }
@@ -49,9 +49,14 @@
     outline: none;
     border-radius: 5px;
     border: 1px solid rgb(118, 116, 116);
-    background-color: #020201;
+      background-color: inherit;
     color:  rgb(118, 116, 116);
     font-weight: 600;
+}
+.error-text{
+    color:  rgb(229, 9, 20);
+    font-weight: 600;
+    padding-bottom: 15px;
 }
 .sign-up-form > button{
     background-color: rgb(229, 9, 20);
