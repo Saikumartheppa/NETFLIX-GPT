@@ -78,6 +78,16 @@
 .sign-up-text p:hover{
     text-decoration: underline;
 }
+.sign-out-btn{
+    background: rgb(229, 9, 20);
+    border: none;
+    font-weight: 600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 
 

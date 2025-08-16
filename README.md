@@ -19,6 +19,8 @@
 - Implement User Sign Up
 - Implement User Sign In
 - Created Redux store with userSlice;
+- Update Profile
+- Implemented Sign Out
 
 # Features
 - Login/Sign Up
