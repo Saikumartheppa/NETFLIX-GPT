@@ -7,6 +7,19 @@
 - Sign-In form
 - Sing Up form
 - Form Validation
+- useRef Hook
+- Firebase SetUp
+  - npm install firebase
+  - npm install -g firebase-tools
+  - firebase login
+  - firebase init
+  - npm run build
+  - firebase deploy
+- Deploying App to production
+- Implement User Sign Up
+- Implement User Sign In
+- Created Redux store with userSlice;
+
 # Features
 - Login/Sign Up
     - Sign In /Sign up Form
