@@ -25,7 +25,9 @@
 - Bugfix : If the user is not logged in redirect "/browse" to login page and vice-versa
 - unSubscribed to the onAuthStateChanged callback
 - Added Profile Icon for sign in users
-
+- Register TMBD API and create an App and get access token
+- Get Data from TMBD now playing movies list API
+- Stored the movies in our store
 # Features
 - Login/Sign Up
     - Sign In /Sign up Form
