@@ -23,6 +23,8 @@
 - Implemented Sign Out
 - Bugfix : Sign Up user displayName
 - Bugfix : If the user is not logged in redirect "/browse" to login page and vice-versa
+- unSubscribed to the onAuthStateChanged callback
+- Added Profile Icon for sign in users
 
 # Features
 - Login/Sign Up

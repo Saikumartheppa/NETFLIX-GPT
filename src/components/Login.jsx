@@ -1,4 +1,4 @@
-import { HEADER_BACKGROUND_IMG } from "../../utils/constants";
+import { HEADER_BACKGROUND_IMG , PROFILE_ICON } from "../../utils/constants";
 import Header from "./Header";
 import "../style.css";
 import { useRef, useState } from "react";
@@ -40,14 +40,15 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: name?.current?.value,
-            photoURL: "https://example.com/jane-q-user/profile.jpg",
+            photoURL: PROFILE_ICON,
           })
             .then(() => {
-              const {uid , email , displayName } = auth.currentUser;
+              const {uid , email , displayName , photoURL} = auth.currentUser;
               dispatch(addUser({
                 uid : uid,
                 email: email,
                 displayName : displayName,
+                photoURL : photoURL,
               }));
             })
             .catch((error) => {
