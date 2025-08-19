@@ -3,16 +3,16 @@ import playIcon from "../assets/play.svg";
 import "../style.css";
 const VideoTitle = ({ title, overview }) => {
   return (
-    <div>
+    <div className="video-title-container">
       <h1>{title}</h1>
       <p>{overview}</p>
-      <div>
-        <div>
-          <img src={MoreInfoIcon} />
+      <div className="video-title-buttons-container">
+        <div className="play-container">
+          <img src={playIcon} />
           <button>Play</button>
         </div>
-        <div>
-          <img src={playIcon} />
+        <div className="more-info-container">
+          <img src={MoreInfoIcon} />
           <button>More Info</button>
         </div>
       </div>

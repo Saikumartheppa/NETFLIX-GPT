@@ -95,7 +95,47 @@
     margin: 0px 5px;
 }
 
-
-
-
+/* Browse Page */
+/* Video Title */
+.video-title-container{
+    max-width: 92vw;
+    margin: 0px auto;
+}
+.video-title-container h1{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+.video-title-container p{
+    width: 420px;
+    margin: 10px 0px;
+}
+.video-title-buttons-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.play-container,
+.more-info-container{
+    display: flex;
+    padding: 8px 18px;
+    border-radius: 5px;
+    gap: 12px;
+    cursor: pointer;
+}
+.more-info-container button{
+    color: white !important;
+}
+.play-container{
+    background-color: #afaaaa;
+}
+.more-info-container{
+    background-color: #4040402f;
+}
+.play-container button,
+.more-info-container button{
+    background-color:initial;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
 
