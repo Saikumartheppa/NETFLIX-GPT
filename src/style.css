@@ -139,3 +139,8 @@
     font-size: 16px;
 }
 
+/* Video Background */
+.youtube-iframe{
+    width: 100vw;
+    aspect-ratio: 16/9;
+}

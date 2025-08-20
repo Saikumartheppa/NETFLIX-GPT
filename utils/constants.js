@@ -15,3 +15,7 @@ export const  API_OPTIONS =  {
 };
 
 export const NOW_PLAYING_MOVIES_API = "https://api.themoviedb.org/3/movie/now_playing?page=1";
+
+export const  GET_MOVIE_VIDEO_URL = (movieId) =>`https://api.themoviedb.org/3/movie/${movieId}/videos`;
+
+export const GET_YOUTUBE_TRAILER_VIDEO = (trailerKey) => `https://www.youtube.com/embed/${trailerKey}`;
