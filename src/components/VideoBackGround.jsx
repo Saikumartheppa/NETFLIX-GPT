@@ -8,7 +8,7 @@ const VideoBackGround = ({ movieId }) => {
   useMovieTrailer(movieId);
   
   return (
-    <div>
+    <div className="youtube-video-container">
       <iframe className="youtube-iframe"
         src={GET_YOUTUBE_TRAILER_VIDEO(trailer?.key)}
         title="YouTube video player"

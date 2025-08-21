@@ -18,4 +18,4 @@ export const NOW_PLAYING_MOVIES_API = "https://api.themoviedb.org/3/movie/now_pl
 
 export const  GET_MOVIE_VIDEO_URL = (movieId) =>`https://api.themoviedb.org/3/movie/${movieId}/videos`;
 
-export const GET_YOUTUBE_TRAILER_VIDEO = (trailerKey) => `https://www.youtube.com/embed/${trailerKey}`;
+export const GET_YOUTUBE_TRAILER_VIDEO = (trailerKey) => `https://www.youtube.com/embed/${trailerKey}?autoplay=1&mute=1&controls=0&loop=1&rel=0&playlist=${trailerKey}`;
