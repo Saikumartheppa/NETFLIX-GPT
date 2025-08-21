@@ -1,146 +1,152 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-.nav-container{
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_small.jpg");
-    height: 110vh;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: max(1200px, 100vw);
+.nav-container {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_small.jpg");
+  height: 110vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
 }
-.gradient{
-    /* background-image: radial-gradient(rgba(0, 0, 0, 0) 1% , rgba(0, 0, 0, 0.154) 1% , rgba(0, 0, 0, 0.935) 90%); */
-    background: linear-gradient(rgba(0, 0, 0, 0.785) 60%, rgba(0, 0, 0, 0) 100%);
- }
-.nav{
-    max-width: 79vw;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 8px;
-    height: 86px;
+.gradient {
+  /* background-image: radial-gradient(rgba(0, 0, 0, 0) 1% , rgba(0, 0, 0, 0.154) 1% , rgba(0, 0, 0, 0.935) 90%); */
+  background: linear-gradient(rgba(0, 0, 0, 0.785) 60%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  z-index: 2;
 }
-.nav-img{
-    width: 175px;
+.nav {
+  width: 88vw;
+  padding: 0 5vw 8px 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
 }
-.nav-img img{
-    width: 100%;
+.nav-img {
+  width: 175px;
 }
-.signIn-container{
-    max-width: 79vw;
-    margin: 0px auto;
+.nav-img img {
+  width: 100%;
 }
-.sign-up-form{
-    width: 320px;
-    margin: 0 auto;
-    background-color: #020201cf;
-    color: #ffffff;
-    padding: 0 60px;
+.signIn-container {
+  max-width: 79vw;
+  margin: 0px auto;
+  position: relative;
+  top:110px;
 }
-.sign-up-form h2{
-   padding: 40px 0px 10px 0px;
+.sign-up-form {
+  width: 320px;
+  margin: 0 auto;
+  background-color: #020201cf;
+  color: #ffffff;
+  padding: 0 60px;
 }
-.sign-up-form  input{
-    display: block;
-    margin: 15px 0px;
-    padding: 20px 0px;
-    width: 100%;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid rgb(118, 116, 116);
-      background-color: inherit;
-    color:  rgb(118, 116, 116);
-    font-weight: 600;
+.sign-up-form h2 {
+  padding: 40px 0px 10px 0px;
 }
-.error-text{
-    color:  rgb(229, 9, 20);
-    font-weight: 600;
-    padding-bottom: 15px;
+.sign-up-form input {
+  display: block;
+  margin: 15px 0px;
+  padding: 20px 0px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(118, 116, 116);
+  background-color: inherit;
+  color: rgb(118, 116, 116);
+  font-weight: 600;
 }
-.sign-up-form > button{
-    background-color: rgb(229, 9, 20);
-    padding: 10px 0px;
-    width: 100%;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    cursor: pointer;
+.error-text {
+  color: rgb(229, 9, 20);
+  font-weight: 600;
+  padding-bottom: 15px;
 }
-.sign-up-text{
-    padding-bottom: 30px;
+.sign-up-form > button {
+  background-color: rgb(229, 9, 20);
+  padding: 10px 0px;
+  width: 100%;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.sign-up-text {
+  padding-bottom: 30px;
 }
 .sign-up-text p {
-    cursor: pointer;
-    display: inline;
+  cursor: pointer;
+  display: inline;
 }
-.sign-up-text p:hover{
-    text-decoration: underline;
+.sign-up-text p:hover {
+  text-decoration: underline;
 }
-.sign-in-out-btn{
-    background: rgb(229, 9, 20);
-    border: none;
-    font-weight: 600;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
+.sign-in-out-btn {
+  background: rgb(229, 9, 20);
+  border: none;
+  font-weight: 600;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.sign-in{
-    display: flex;
+.sign-in {
+  display: flex;
 }
-.sign-in *{
-    margin: 0px 5px;
+.sign-in * {
+  margin: 0px 5px;
 }
 
 /* Browse Page */
 /* Video Title */
-.video-title-container{
-    max-width: 92vw;
-    margin: 0px auto;
+.video-title-container {
+  position: relative;
+  z-index: 2;
+  padding: 0 6vw;
+  top: 130px;
+  color: #ffffff;
 }
-.video-title-container h1{
-    font-size: 40px;
-    margin: 10px 0px;
+.video-title-container h1 {
+  font-size: 40px;
 }
-.video-title-container p{
-    width: 420px;
-    margin: 10px 0px;
+.video-title-container p {
+  width: 420px;
+  margin: 10px 0px;
 }
-.video-title-buttons-container{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.video-title-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .play-container,
-.more-info-container{
-    display: flex;
-    padding: 8px 18px;
-    border-radius: 5px;
-    gap: 12px;
-    cursor: pointer;
+.more-info-container {
+  display: flex;
+  padding: 8px 18px;
+  border-radius: 5px;
+  gap: 12px;
+  cursor: pointer;
 }
-.more-info-container button{
-    color: white !important;
+.more-info-container button {
+  color: white !important;
 }
-.play-container{
-    background-color: #afaaaa;
+.play-container {
+  background-color: #afaaaa;
 }
-.more-info-container{
-    background-color: #4040402f;
+.more-info-container {
+  background-color: rgba(109, 109, 110, 0.7);;
 }
 .play-container button,
-.more-info-container button{
-    background-color:initial;
-    border: none;
-    font-weight: 600;
-    font-size: 16px;
+.more-info-container button {
+  background-color: initial;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 /* Video Background */
-.youtube-iframe{
-    width: 100vw;
-    aspect-ratio: 16/9;
+.youtube-iframe {
+  position: absolute;
+  z-index: 1;
+  aspect-ratio: 16/9;
 }
