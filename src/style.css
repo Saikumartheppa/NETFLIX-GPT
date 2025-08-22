@@ -131,8 +131,8 @@
 .more-info-container button {
   color: white !important;
 }
-.play-container {
-  background-color: #afaaaa;
+.play-container{
+  background-color: white;
 }
 .more-info-container {
   background-color: rgba(109, 109, 110, 0.7);;
@@ -143,6 +143,13 @@
   border: none;
   font-weight: 600;
   font-size: 16px;
+}
+.play-container:hover {
+  background-color: rgba(209, 209, 209, 0.845);
+}
+.play-container button:hover,
+.more-info-container button:hover{
+  cursor: pointer;
 }
 
 /* Video Background */

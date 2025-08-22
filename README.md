@@ -27,7 +27,17 @@
 - Added Profile Icon for sign in users
 - Register TMBD API and create an App and get access token
 - Get Data from TMBD now playing movies list API
-- Stored the movies in our store
+- Custom Hook for Now Playing Movies
+- Create movieSlice
+- Update Store with movies Data
+- Planning for MainContauiner & secondary container
+- Updated constant file
+- Fetch Data for Trailer Video
+- Update Store with Trailer Video Data
+- Embedded the Yotube video and make it autoplay and mute
+- Tailwind Classes to make Main Container look awesome
+- Build Secondary Component
+
 # Features
 - Login/Sign Up
     - Sign In /Sign up Form
