@@ -13,9 +13,18 @@ export const  API_OPTIONS =  {
     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NzlhOTc4ZWRlZDMyYzIzMDI4MzU0N2Y4NTQ3YTk1MCIsIm5iZiI6MTc1NTQxNTcxMC4yNTEwMDAyLCJzdWIiOiI2OGExODQ5ZWJiMzNhMWYwYWY4NmZiOWQiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.BIPL_Tqwb4lMXBitnEk9tNnR_I7E4khq1u30Ey3uV-g'
   }
 };
+export const TMBD_BASE_URL = "https://api.themoviedb.org/"
 
-export const NOW_PLAYING_MOVIES_API = "https://api.themoviedb.org/3/movie/now_playing?page=1";
+export const NOW_PLAYING_MOVIES_API = `${TMBD_BASE_URL}3/movie/now_playing?page=1`;
 
-export const  GET_MOVIE_VIDEO_URL = (movieId) =>`https://api.themoviedb.org/3/movie/${movieId}/videos`;
+export const  GET_MOVIE_VIDEO_URL = (movieId) =>`${TMBD_BASE_URL}3/movie/${movieId}/videos`;
 
 export const GET_YOUTUBE_TRAILER_VIDEO = (trailerKey) => `https://www.youtube.com/embed/${trailerKey}?autoplay=1&mute=1&controls=0&loop=1&rel=0&playlist=${trailerKey}`;
+
+export const GET_IMG_CDN_URL = (posterPath) => `https://image.tmdb.org/t/p/w154${posterPath}`;
+
+export const POPULAR_MOVIES_API = `${TMBD_BASE_URL}3/movie/popular?page=1`;
+
+export const TOP_RATED_MOVIES_API = `${TMBD_BASE_URL}3/movie/top_rated?page=1`;
+
+export const UPCOMING_MOVIES_API = `${TMBD_BASE_URL}3/movie/upcoming?page=1`;

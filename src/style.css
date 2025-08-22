@@ -34,7 +34,7 @@
   max-width: 79vw;
   margin: 0px auto;
   position: relative;
-  top:110px;
+  top: 110px;
 }
 .sign-up-form {
   width: 320px;
@@ -105,14 +105,15 @@
   position: relative;
   z-index: 2;
   padding: 0 6vw;
-  top: 130px;
+  top: 200px;
   color: #ffffff;
 }
 .video-title-container h1 {
-  font-size: 40px;
+  font-size: 35px;
+  width: 350px;
 }
 .video-title-container p {
-  width: 420px;
+  width: 300px;
   margin: 10px 0px;
 }
 .video-title-buttons-container {
@@ -131,11 +132,11 @@
 .more-info-container button {
   color: white !important;
 }
-.play-container{
+.play-container {
   background-color: white;
 }
 .more-info-container {
-  background-color: rgba(109, 109, 110, 0.7);;
+  background-color: rgba(109, 109, 110, 0.7);
 }
 .play-container button,
 .more-info-container button {
@@ -147,19 +148,61 @@
 .play-container:hover {
   background-color: rgba(209, 209, 209, 0.845);
 }
+.more-info-container:hover{
+  background-color: rgba(109, 109, 110, 0.4);
+}
 .play-container button:hover,
-.more-info-container button:hover{
+.more-info-container button:hover {
   cursor: pointer;
 }
 
 /* Video Background */
-.youtube-video-container{
+.youtube-video-container {
   position: absolute;
   width: 100%;
   overflow: hidden;
   z-index: 1;
+  height: 110vh;
 }
 .youtube-iframe {
   aspect-ratio: 16/9;
   border: none;
+}
+
+/* Secondary Container */
+.secondary-container {
+  background-color: #141414;
+}
+.movies-container{
+  padding: 0 6vw;
+  color: white;
+}
+.movies-container:first-child{
+  margin-top: 44vh;
+  position: relative;
+  z-index: 2;
+}
+.movie-container h3{
+  color: #e5e5e5;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.movie-card-container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.movie-card-container::-webkit-scrollbar{
+  display: none;
+}
+.movie-card-image-container {
+  width: 12vw;
+  height: 32vh;
+}
+.movie-card-image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }
