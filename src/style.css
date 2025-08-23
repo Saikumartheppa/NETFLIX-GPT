@@ -2,8 +2,8 @@
   padding: 0;
   margin: 0;
 }
-.nav-container {
-  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_small.jpg");
+.nav-container,
+.gpt-search-page-outer-container {
   height: 110vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -83,6 +83,20 @@
 .sign-up-text p:hover {
   text-decoration: underline;
 }
+.language-container {
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+.language-container:hover,
+.gpt-search-icons-container:hover {
+  background-color: #383838d0;
+}
 .sign-in-out-btn {
   background: rgb(229, 9, 20);
   border: none;
@@ -90,6 +104,27 @@
   color: white;
   padding: 10px 15px;
   border-radius: 5px;
+  cursor: pointer;
+}
+.gpt-search-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.gpt-search-btn {
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+.search-icon {
+  width: 20px;
+}
+.gpt-search-btn:hover {
+  cursor: pointer;
+}
+.search-icon:hover {
   cursor: pointer;
 }
 .sign-in {
@@ -148,7 +183,7 @@
 .play-container:hover {
   background-color: rgba(209, 209, 209, 0.845);
 }
-.more-info-container:hover{
+.more-info-container:hover {
   background-color: rgba(109, 109, 110, 0.4);
 }
 .play-container button:hover,
@@ -173,16 +208,16 @@
 .secondary-container {
   background-color: #141414;
 }
-.movies-container{
+.movies-container {
   padding: 0 6vw;
   color: white;
 }
-.movies-container:first-child{
+.movies-container:first-child {
   margin-top: 44vh;
   position: relative;
   z-index: 2;
 }
-.movie-container h3{
+.movie-container h3 {
   color: #e5e5e5;
   font-weight: 700;
   margin: 10px 0px;
@@ -194,7 +229,7 @@
   gap: 10px;
   margin-bottom: 50px;
 }
-.movie-card-container::-webkit-scrollbar{
+.movie-card-container::-webkit-scrollbar {
   display: none;
 }
 .movie-card-image-container {
@@ -205,4 +240,45 @@
   width: 100%;
   height: 100%;
   border-radius: 5px;
+}
+/* GPT search Page */
+.gpt-searchbar-container {
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  position: relative;
+  z-index: 3;
+}
+.gpt-searchbar-form {
+  width: 50vw;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.gpt-searchbar-input {
+  grid-column-start: span 10;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.gpt-search-icon-container {
+  grid-column-start: span 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(229, 9, 20);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.gpt-search-icon-container img {
+  width: 15px;
+}
+.gpt-searchbar-search-btn {
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  background-color: inherit;
 }

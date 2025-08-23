@@ -1,4 +1,4 @@
-import { HEADER_BACKGROUND_IMG , PROFILE_ICON } from "../../utils/constants";
+import { NETFLIX_BG_URL, PROFILE_ICON } from "../../utils/constants";
 import Header from "./Header";
 import "../style.css";
 import { useRef, useState } from "react";
@@ -79,7 +79,7 @@ const Login = () => {
   };
   return (
     <div>
-      <div className="nav-container">
+      <div className="nav-container" style={{backgroundImage:`url(${NETFLIX_BG_URL})`}}>
         <Header />
         <div className="signIn-container">
           <form onSubmit={(e) => e.preventDefault()} className="sign-up-form">
