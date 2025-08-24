@@ -49,8 +49,8 @@
 .sign-up-form input {
   display: block;
   margin: 15px 0px;
-  padding: 20px 0px;
-  width: 100%;
+  padding: 20px 0px 20px 10px;
+  width: 96%;
   outline: none;
   border-radius: 5px;
   border: 1px solid rgb(118, 116, 116);
@@ -255,7 +255,7 @@
   grid-template-columns: repeat(12, 1fr);
 }
 .gpt-searchbar-input {
-  grid-column-start: span 10;
+  grid-column-start: span 9;
   outline: none;
   border: none;
   padding: 10px;
@@ -263,14 +263,15 @@
   border-radius: 3px;
 }
 .gpt-search-icon-container {
-  grid-column-start: span 2;
+  grid-column-start: span 3;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(229, 9, 20);
   margin: 10px;
   padding: 10px;
   border-radius: 3px;
+  cursor: pointer;
 }
 .gpt-search-icon-container img {
   width: 15px;
@@ -281,4 +282,13 @@
   color: white;
   border-radius: 3px;
   background-color: inherit;
+  cursor: pointer;
+}
+.movie-suggestion-container {
+  position: relative;
+  z-index: 3;
+  top: 150px;
+  color: white;
+  background-color: #141414;
+  padding: 0 5vw 0 5vw;
 }

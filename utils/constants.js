@@ -15,7 +15,7 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NzlhOTc4ZWRlZDMyYzIzMDI4MzU0N2Y4NTQ3YTk1MCIsIm5iZiI6MTc1NTQxNTcxMC4yNTEwMDAyLCJzdWIiOiI2OGExODQ5ZWJiMzNhMWYwYWY4NmZiOWQiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.BIPL_Tqwb4lMXBitnEk9tNnR_I7E4khq1u30Ey3uV-g",
+      `Bearer ${import.meta.env.VITE_TMBD_KEY}`,
   },
 };
 export const TMBD_BASE_URL = "https://api.themoviedb.org/";
@@ -41,6 +41,10 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "en", name: "English" },
   { identifier: "hindi", name: "Hindi" },
   { identifier: "telugu", name: "Telugu" },
-  { identifier: "tamil", name: "Tamil" },
   { identifier: "spanish", name: "Spanish" },
 ];
+export const OPENAI_KEY = import.meta.env.VITE_OPENAI_KEY;;
+
+export const SEARCH_MOVIE_API = (movieName) =>
+`${TMBD_BASE_URL}3/search/movie?query=${movieName}&include_adult=false&language=en-US&page=1`;
+
