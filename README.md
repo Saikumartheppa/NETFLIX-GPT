@@ -55,6 +55,7 @@
 - Resused Movie List component to make movie suggestion container
 - Added .env file
 - Adding .env file to gitignore
+- Memoization
 # Features
 - Login/Sign Up
     - Sign In /Sign up Form
