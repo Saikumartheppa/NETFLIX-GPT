@@ -29,7 +29,7 @@ export const GET_YOUTUBE_TRAILER_VIDEO = (trailerKey) =>
   `https://www.youtube.com/embed/${trailerKey}?autoplay=1&mute=1&controls=0&loop=1&rel=0&playlist=${trailerKey}`;
 
 export const GET_IMG_CDN_URL = (posterPath) =>
-  `https://image.tmdb.org/t/p/w154${posterPath}`;
+  `https://image.tmdb.org/t/p/original${posterPath}`;
 
 export const POPULAR_MOVIES_API = `${TMBD_BASE_URL}3/movie/popular?page=1`;
 

@@ -7,9 +7,11 @@ const MovieList = ({ title, movies }) => {
       <div className="movie-container">
         <h3>{title}</h3>
         <div className="movie-card-container">
-          {movies.map((movie) => (
-            <MovieCard key={movie?.id} posterPath={movie?.poster_path} />
-          ))}
+          {movies.map((movie) => {
+            return (
+              <MovieCard key={movie?.id} posterPath={movie?.backdrop_path} />
+            );
+          })}
           {/* <MovieCard posterPath={movies[0]?.poster_path} /> */}
         </div>
       </div>

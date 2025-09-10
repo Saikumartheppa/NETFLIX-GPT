@@ -233,8 +233,8 @@
   display: none;
 }
 .movie-card-image-container {
-  width: 12vw;
-  height: 32vh;
+  width: 15vw;
+  height: 30vh;
 }
 .movie-card-image-container img {
   width: 100%;
